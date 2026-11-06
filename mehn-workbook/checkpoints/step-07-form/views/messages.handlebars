@@ -1,0 +1,15 @@
+<h1>Message Wall</h1>
+
+<form action="/messages" method="POST">
+  <input name="name" placeholder="Your name" required>
+  <textarea name="text" placeholder="Your message" required></textarea>
+  <button type="submit">Post</button>
+</form>
+
+{{#each messages}}
+  <div class="message">
+    <strong>{{name}}</strong>: {{text}}
+  </div>
+{{else}}
+  <p>No messages yet. Be the first!</p>
+{{/each}}

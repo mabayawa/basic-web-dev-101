@@ -1,0 +1,21 @@
+{
+  "name": "mehn-workbook",
+  "version": "1.0.0",
+  "description": "Checkpoints for the MEHN (MongoDB, Express, Handlebars, Node.js) beginner workshop",
+  "private": true,
+  "scripts": {
+    "step1": "cd checkpoints/step-01-hello-node && node app.js",
+    "step2": "cd checkpoints/step-02-hello-express && node --watch app.js",
+    "step3": "cd checkpoints/step-03-routes && node --watch app.js",
+    "step4": "cd checkpoints/step-04-handlebars && node --watch app.js",
+    "step5": "cd checkpoints/step-05-each && node --watch app.js",
+    "step6": "cd checkpoints/step-06-mvc && node --watch app.js",
+    "step7": "cd checkpoints/step-07-form && node --watch app.js",
+    "step8": "cd checkpoints/step-08-mongodb && node --watch app.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "express-handlebars": "^9.0.0",
+    "mongoose": "^9.0.0"
+  }
+}
